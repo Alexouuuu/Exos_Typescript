@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var MaDate_1 = require("./MaDate");
+var date = new MaDate_1.MaDate(25, 5, 2006);
+date.afficher();
+date.ajouterUnJour();
+date.afficher();
+date.ajouterPlusieursJours(10);
+date.afficher();
+date.ajouterUnMois();
+date.afficher();
+date.ajouterUneAnnee();
+date.afficher();
